@@ -1,0 +1,19 @@
+#References- https://registry.terraform.io/providers/hashicorp/aws/latest/docs
+
+- sudo yum install -y yum-utils
+- sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
+- sudo yum -y install terraform
+
+- mkdir terra
+- vi main.tf
+  Paste all the content which is there in main.tf outside
+- vi compute.tf
+  Paste all the content which is there in compute.tf outside
+- vi variables.tf
+  Paste all the content which is there in variables.tf outside
+
+- terraform init
+- terraform plan
+- terraform apply
+- terraform destroy
+
